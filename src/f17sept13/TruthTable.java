@@ -15,6 +15,10 @@ public class TruthTable {
         System.out.printf("FALSE OR TRUE = %s%n", false || true);
         System.out.printf("NOT TRUE = %s%n", !true);
         
+        System.out.printf("%nTRUE AND FALSE = %s%n", true && false);
+        System.out.printf("TRUE OR FALSE = %s%n", true || false);
         
+        System.out.printf("%nTRUE AND TRUE = %s%n", true && true);
+        System.out.printf("TRUE OR TRUE = %s%n", true || true);        
     }
 }
