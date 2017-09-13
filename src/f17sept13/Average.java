@@ -23,11 +23,12 @@ public class Average {
         num2 = keyboard.nextDouble();
         
         System.out.print("Please enter the third number: ");
-        num2 = keyboard.nextDouble();
+        num3 = keyboard.nextDouble();
         
         // The program will calculate the average of the 3 numbers
-        // The program will display the average of the 3 numbers to the screen
-
+        avg = (num1 + num2 + num3)/3;
         
+        // The program will display the average of the 3 numbers to the screen
+        System.out.printf("The average of the numbers is %.1f%n", avg);
     }
 }
